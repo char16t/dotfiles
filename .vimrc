@@ -12,3 +12,4 @@ set expandtab
 set incsearch
 set hlsearch
 
+set autoindent
