@@ -6,10 +6,11 @@ set nobackup
 colorscheme Tomorrow-Night-Bright
 syntax on
 
-set tabstop=4
-set softtabstop=4
-set shiftwidth=4
-set expandtab
+" Indent commands
+com SpaceIndent :set tabstop=4| set shiftwidth=4| set expandtab
+com TabIndent :set tabstop=8| set shiftwidth=8| set noexpandtab
+" 4 space indent by default
+SpaceIndent
 
 set incsearch
 set hlsearch
