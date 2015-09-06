@@ -6,17 +6,14 @@ set nobackup
 colorscheme Tomorrow-Night-Bright
 syntax on
 
-" Indent commands
-com SpaceIndent :set tabstop=4| set shiftwidth=4| set expandtab
-com TabIndent :set tabstop=8| set shiftwidth=8| set noexpandtab
-" 4 space indent by default
-SpaceIndent
+let mapleader = ","
+set virtualedit=onemore
 
-set incsearch
-set hlsearch
+:inoremap jk <esc>
 
-set autoindent
-
-set wildmenu
-set laststatus=2
-set statusline=\ %f%m%r%h%w\ %=%({%{&ff}\|%{(&fenc==\"\"?&enc:&fenc).((exists(\"+bomb\")\ &&\ &bomb)?\",B\":\"\")}%k\|%Y}%)\ %([%l,%v][%p%%]\ %)
+" Disable some keys
+:inoremap <esc> <nop>
+:nnoremap <Up> <nop>
+:nnoremap <Down> <nop>
+:nnoremap <Left> <nop>
+:nnoremap <Right> <nop>
