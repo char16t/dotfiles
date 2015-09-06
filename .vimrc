@@ -17,3 +17,7 @@ set virtualedit=onemore
 :nnoremap <Down> <nop>
 :nnoremap <Left> <nop>
 :nnoremap <Right> <nop>
+:vnoremap <Up> <nop>
+:vnoremap <Down> <nop>
+:vnoremap <Left> <nop>
+:vnoremap <Right> <nop>
