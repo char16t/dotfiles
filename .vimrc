@@ -1,6 +1,7 @@
 set enc=utf-8
 set number
 
+" Color scheme and syntax
 colorscheme Tomorrow-Night-Bright
 syntax on
 
@@ -15,6 +16,7 @@ set virtualedit=onemore
 " Mappings
 inoremap jk <esc>
 nnoremap <leader>w :write<cr>            " Write changes
+inoremap <leader>w <esc>:write<cr>i
 nnoremap <leader>q :quit<cr>             " Quit
 nnoremap <leader>n :tabnew<cr>           " open New tab
 nnoremap <leader>s :new<cr>              " horizontal Split
