@@ -23,6 +23,10 @@ nnoremap <leader>s :new<cr>              " horizontal Split
 nnoremap <leader>v :vnew<cr>             " Vertical split
 nnoremap <leader>l :tabn<cr>             " , + L
 nnoremap <leader>h :tabp<cr>             " , + H
+nnoremap <C-h> <C-w>h
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-l> <C-w>l
 nnoremap <leader>ev :tabnew $MYVIMRC<cr> " Edit my Vim configuration
 nnoremap <leader>sv :source $MYVIMRC<cr> " Source my Vim configuration
 
