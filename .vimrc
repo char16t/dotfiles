@@ -14,6 +14,7 @@ let mapleader = ","
 set virtualedit=onemore
 
 " Mappings
+nnoremap ; :
 inoremap jk <esc>
 nnoremap <leader>w :write<cr>            " Write changes
 inoremap <leader>w <esc>:write<cr>i
