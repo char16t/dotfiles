@@ -14,7 +14,7 @@ set virtualedit=onemore
 
 " Mappings
 inoremap jk <esc>
-nnoremap <leader>w :write<cr>            " Write
+nnoremap <leader>w :write<cr>            " Write changes
 nnoremap <leader>q :quit<cr>             " Quit
 nnoremap <leader>n :tabnew<cr>           " open New tab
 nnoremap <leader>s :new<cr>              " horizontal Split
@@ -23,6 +23,12 @@ nnoremap <leader>l :tabn<cr>             " , + L
 nnoremap <leader>h :tabp<cr>             " , + H
 nnoremap <leader>ev :tabnew $MYVIMRC<cr> " Edit my Vim configuration
 nnoremap <leader>sv :source $MYVIMRC<cr> " Source my Vim configuration
+
+" Navigation in insert mode
+inoremap <c-k> <up>
+inoremap <c-j> <down>
+inoremap <c-h> <left>
+inoremap <c-l> <right>
 
 " Disable some keys
 inoremap <esc> <nop>
