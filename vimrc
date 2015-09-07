@@ -30,6 +30,7 @@ nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
+map <F2> :NERDTreeToggle<CR>
 nnoremap <leader>ev :tabnew $MYVIMRC<cr> " Edit my Vim configuration
 nnoremap <leader>sv :source $MYVIMRC<cr> " Source my Vim configuration
 
