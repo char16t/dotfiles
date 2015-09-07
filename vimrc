@@ -1,3 +1,5 @@
+execute pathogen#infect()
+
 set enc=utf-8
 set number
 
