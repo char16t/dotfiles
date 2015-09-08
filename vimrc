@@ -46,6 +46,9 @@ inoremap <c-j> <down>
 inoremap <c-h> <left>
 inoremap <c-l> <right>
 
+" x in insert mode
+inoremap <c-x> <esc>xi
+
 " Disable some keys
 inoremap <esc> <nop>
 noremap <Up> <nop>
