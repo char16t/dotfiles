@@ -7,6 +7,12 @@ set number
 colorscheme Tomorrow-Night-Bright
 syntax on
 
+" Indents
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+set expandtab
+
 " Backup
 set nobackup " Do not make a backup before overwriting a file
 set nowritebackup " Do not make a backup before overwriting a file
