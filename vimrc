@@ -7,6 +7,11 @@ set number
 colorscheme Tomorrow-Night-Bright
 syntax on
 
+" Search
+set ic
+set is
+set hls
+
 " Indents
 set tabstop=4
 set softtabstop=4
