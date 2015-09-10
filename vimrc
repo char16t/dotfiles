@@ -1,5 +1,6 @@
 execute pathogen#infect()
 
+set textwidth=80
 set enc=utf-8
 set number
 
