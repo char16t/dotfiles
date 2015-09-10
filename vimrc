@@ -27,6 +27,7 @@ inoremap jk <esc>
 nnoremap <leader>w :write<cr>            " Write changes
 inoremap <leader>w <esc>:write<cr>i
 nnoremap <leader>q :quit<cr>             " Quit
+nnoremap <leader>Q :q!<cr>               " Quit without saving changes
 nnoremap <leader>n :tabnew<cr>           " open New tab
 nnoremap <leader>s :new<cr>              " horizontal Split
 nnoremap <leader>v :vnew<cr>             " Vertical split
