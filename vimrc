@@ -67,3 +67,4 @@ noremap <Right> <nop>
 nnoremap <leader>gc :!git<space>add<space>--all<space>.<cr><cr>:!git<space>commit<space>-m<space>""<left>
 nnoremap <leader>gl :!git log<cr>
 nnoremap <leader>gd :!git diff<cr>
+nnoremap <leader>gs :!git status<cr>
