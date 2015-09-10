@@ -37,6 +37,8 @@ nnoremap <leader>Q :q!<cr>               " Quit without saving changes
 nnoremap <leader>n :tabnew<cr>           " open New tab
 nnoremap <leader>s :new<cr>              " horizontal Split
 nnoremap <leader>v :vnew<cr>             " Vertical split
+nnoremap <Tab> gt
+nnoremap <S-Tab> gT
 nnoremap <leader>l :tabn<cr>             " , + L
 nnoremap <leader>h :tabp<cr>             " , + H
 nnoremap <C-h> <C-w>h
