@@ -65,3 +65,4 @@ noremap <Right> <nop>
 
 " Git
 nnoremap <leader>gc :!git<space>add<space>--all<space>.<cr><cr>:!git<space>commit<space>-m<space>""<left>
+nnoremap <leader>gl :!git log<cr>
