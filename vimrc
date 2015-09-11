@@ -25,7 +25,7 @@ set nowritebackup " Do not make a backup before overwriting a file
 set noswapfile " Don't create swapfiles
 
 let mapleader = ","
-set virtualedit=onemore
+"set virtualedit=onemore
 
 " Mappings
 nnoremap ; :
@@ -34,15 +34,10 @@ nnoremap <leader>w :write<cr>            " Write changes
 inoremap <leader>w <esc>:write<cr>i
 nnoremap <leader>q :quit<cr>             " Quit
 nnoremap <leader>Q :q!<cr>               " Quit without saving changes
-nnoremap <leader>n :tabnew<cr>           " open New tab
+nnoremap <leader>n :tabnew<cr>:<C-u>e <C-R>=expand("%:p:h") . '/'<CR>
+nnoremap <Leader>o :<C-u>e <C-R>=expand("%:p:h") . '/'<CR>
 nnoremap <leader>s :new<cr>              " horizontal Split
 nnoremap <leader>v :vnew<cr>             " Vertical split
-nnoremap <Tab> gt
-nnoremap <S-Tab> gT
-nnoremap <Leader><left>  :<C-u>leftabove  vnew<CR>
-nnoremap <Leader><right> :<C-u>rightbelow vnew<CR>
-nnoremap <Leader><up>    :<C-u>leftabove  new<CR>
-nnoremap <Leader><down>  :<C-u>rightbelow new<CR>
 nnoremap <leader>l :tabn<cr>             " , + L
 nnoremap <leader>h :tabp<cr>             " , + H
 nnoremap <C-h> <C-w>h
@@ -52,6 +47,14 @@ nnoremap <C-l> <C-w>l
 map <F2> :NERDTreeToggle<CR>
 nnoremap <leader>ev :tabnew $MYVIMRC<cr> " Edit my Vim configuration
 nnoremap <leader>sv :source $MYVIMRC<cr> " Source my Vim configuration
+
+" Navigation
+nnoremap <Tab> gt
+nnoremap <S-Tab> gT
+nnoremap <Leader><left>  :<C-u>leftabove  vnew<CR>
+nnoremap <Leader><right> :<C-u>rightbelow vnew<CR>
+nnoremap <Leader><up>    :<C-u>leftabove  new<CR>
+nnoremap <Leader><down>  :<C-u>rightbelow new<CR>
 
 " Navigation in insert mode
 inoremap <c-k> <up>
