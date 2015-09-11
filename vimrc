@@ -74,7 +74,7 @@ noremap <Left> <nop>
 noremap <Right> <nop>
 
 " Grep
-:map <F4> :execute "vimgrep /" . expand("<cword>") . "/j **"<Bar>cw<CR> 
+nnoremap <leader>f :execute "vimgrep /" . expand("<cword>") . "/j **"<Bar>cw<CR> 
 
 " Git
 nnoremap <leader>gc :!git<space>add<space>--all<space>.<cr><cr>:!git<space>commit<space>-m<space>""<left>
