@@ -55,6 +55,7 @@ nnoremap <Leader><left>  :<C-u>leftabove  vnew<CR>
 nnoremap <Leader><right> :<C-u>rightbelow vnew<CR>
 nnoremap <Leader><up>    :<C-u>leftabove  new<CR>
 nnoremap <Leader><down>  :<C-u>rightbelow new<CR>
+nnoremap <Space> <PageDown>
 
 " Navigation in insert mode
 inoremap <c-k> <up>
