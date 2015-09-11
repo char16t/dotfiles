@@ -12,6 +12,7 @@ syntax on
 set ic
 set is
 set hls
+nnoremap <silent> <Esc><Esc> :nohlsearch<CR><Esc>
 
 " Indents
 set tabstop=4
