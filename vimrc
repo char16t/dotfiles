@@ -82,3 +82,8 @@ nnoremap <leader>gc :!git<space>add<space>--all<space>.<cr><cr>:!git<space>commi
 nnoremap <leader>gl :!git log<cr>
 nnoremap <leader>gd :!git diff<cr>
 nnoremap <leader>gs :!git status<cr>
+
+" Auto complete {} indent and position the cursor in the middle line
+inoremap {<CR> {<CR>}<Esc>O
+inoremap (<CR> (<CR>)<Esc>O
+inoremap [<CR> [<CR>]<Esc>O
