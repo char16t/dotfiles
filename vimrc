@@ -19,6 +19,7 @@ set tabstop=4
 set softtabstop=4
 set shiftwidth=4
 set expandtab
+set smartindent
 
 " Backup
 set nobackup " Do not make a backup before overwriting a file
