@@ -14,6 +14,14 @@ set is
 set hls
 nnoremap <silent> <Esc><Esc> :nohlsearch<CR><Esc>
 
+" Search matches are always in center
+nnoremap n nzz
+nnoremap N Nzz
+nnoremap * *zz
+nnoremap # #zz
+nnoremap g* g*zz
+nnoremap g# g#zz
+
 " Indents
 set tabstop=4
 set softtabstop=4
