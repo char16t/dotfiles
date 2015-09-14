@@ -78,7 +78,7 @@ inoremap <c-h> <left>
 inoremap <c-l> <right>
 
 " x,u in insert mode
-inoremap <c-x> <esc>xi
+"inoremap <c-x> <esc>xi
 inoremap <c-u> <esc>ui
 
 " Disable some keys
