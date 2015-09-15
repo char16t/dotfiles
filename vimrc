@@ -12,6 +12,7 @@ syntax on
 set ic
 set is
 set hls
+set smartcase " Override the 'ignorecase' if the search pattern contains upper case characters
 nnoremap <silent> <Esc><Esc> :nohlsearch<CR><Esc>
 
 " Search matches are always in center
