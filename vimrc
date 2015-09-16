@@ -63,6 +63,12 @@ map <F2> :NERDTreeToggle<CR>
 nnoremap <leader>ev :tabnew $MYVIMRC<cr> " Edit my Vim configuration
 nnoremap <leader>sv :source $MYVIMRC<cr> " Source my Vim configuration
 
+" To start of line, to end of line
+cnoremap <c-e> <end>
+inoremap     <c-e> <c-o>$
+cnoremap <c-a> <home>
+inoremap     <c-a> <c-o>^
+
 " Navigation
 nnoremap <Tab> gt
 nnoremap <S-Tab> gT
