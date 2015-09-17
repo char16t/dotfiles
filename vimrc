@@ -69,6 +69,10 @@ inoremap     <c-e> <c-o>$
 cnoremap <c-a> <home>
 inoremap     <c-a> <c-o>^
 
+" < >
+vnoremap < <gv
+vnoremap > >gv
+
 " Navigation
 nnoremap <Tab> gt
 nnoremap <S-Tab> gT
