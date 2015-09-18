@@ -15,6 +15,9 @@ set hls
 set smartcase " Override the 'ignorecase' if the search pattern contains upper case characters
 nnoremap <silent> <Esc><Esc> :nohlsearch<CR><Esc>
 
+" In Visual mode exec git blame with selected text
+vnoremap <Leader>b :<C-U>!git blame <C-R>=expand("%:p") <CR> \| sed -n <C-R>=line("'<") <CR>,<C-R>=line("'>") <CR>p <CR>
+
 " Search matches are always in center
 nnoremap n nzz
 nnoremap N Nzz
