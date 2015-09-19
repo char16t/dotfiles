@@ -26,6 +26,10 @@ nnoremap # #zz
 nnoremap g* g*zz
 nnoremap g# g#zz
 
+" Move selected lines
+vnoremap <C-S-k> xkP'[V']
+vnoremap <C-S-j> xp'[V']
+
 " Indents
 set tabstop=4
 set softtabstop=4
