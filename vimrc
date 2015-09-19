@@ -51,6 +51,7 @@ let mapleader = ","
 
 " Mappings
 nnoremap ; :
+vnoremap ; :
 inoremap jk <esc>
 nnoremap <leader>w :write<cr>            " Write changes
 inoremap <leader>w <esc>:write<cr>i
