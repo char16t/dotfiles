@@ -26,9 +26,6 @@ nnoremap # #zz
 nnoremap g* g*zz
 nnoremap g# g#zz
 
-" Move selected lines
-vnoremap <C-S-k> xkP'[V']
-vnoremap <C-S-j> xp'[V']
 
 " Indents
 set tabstop=4
@@ -120,3 +117,11 @@ nnoremap <leader>gs :!git status<cr>
 inoremap {<CR> {<CR>}<Esc>O
 inoremap (<CR> (<CR>)<Esc>O
 inoremap [<CR> [<CR>]<Esc>O
+
+" Move current line
+nnoremap <C-S-k> ddkP
+nnoremap <C-S-j> ddp
+
+" Move selected lines
+vnoremap <C-S-k> xkP'[V']
+vnoremap <C-S-j> xp'[V']
