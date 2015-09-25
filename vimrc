@@ -129,8 +129,8 @@ inoremap (<CR> (<CR>)<Esc>O
 inoremap [<CR> [<CR>]<Esc>O
 
 " Move current line
-nnoremap <C-S-k> ddkP
-nnoremap <C-S-j> ddp
+"nnoremap <C-S-k> ddkP
+"nnoremap <C-S-j> ddp
 
 " Move selected lines
 vnoremap <C-S-k> xkP'[V']
