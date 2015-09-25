@@ -87,15 +87,15 @@ nnoremap <Leader><down>  :<C-u>rightbelow new<CR>
 nnoremap <Space> <PageDown>
 
 " , + 1..9 go to that tab
-map <leader>1 1gt
-map <leader>2 2gt
-map <leader>3 3gt
-map <leader>4 4gt
-map <leader>5 5gt
-map <leader>6 6gt
-map <leader>7 7gt
-map <leader>8 8gt
-map <leader>9 9gt
+noremap <leader>1 1gt
+noremap <leader>2 2gt
+noremap <leader>3 3gt
+noremap <leader>4 4gt
+noremap <leader>5 5gt
+noremap <leader>6 6gt
+noremap <leader>7 7gt
+noremap <leader>8 8gt
+noremap <leader>9 9gt
 
 " Navigation in insert mode
 inoremap <c-k> <up>
