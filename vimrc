@@ -5,7 +5,7 @@ set enc=utf-8
 set number
 
 " Color scheme and syntax
-colorscheme Tomorrow-Night-Bright
+colorscheme mustang
 syntax on
 
 " Search
