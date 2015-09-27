@@ -7,6 +7,7 @@ set number
 " Color scheme and syntax
 colorscheme mustang
 syntax on
+set t_Co=256
 
 " Search
 set ic
