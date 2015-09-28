@@ -6,13 +6,17 @@
 
 ## Usage
 
-Leader &mdash; `,`
- 
+Main
+
 || Hotkey |
 |---|---|
+| **Leader** | `,` |
 | Write | `,` `w` |
 | Quit | `,` `q` |
 | Quit without saving changes | `,` `Q` |
+
+
+Navigation
 
 || Hotkey |
 |---|---|
@@ -20,8 +24,5 @@ Leader &mdash; `,`
 | Next tab | `Tab` |
 | Previous tab | `Shift` + `Tab` |
 | Go to that tab | `,` `1..9` |
-| New split left | `,` `←` |
-| New split right | `,` `→` |
-| New split above | `,` `↑` |
-| New split below | `,` `↓` |
+| New split | left `,` `←` <br> right `,` `→` <br>  above `,` `↑` <br> below `,` `↓` |
 | Switch to between splits | `Ctrl` + `h`<br> `Ctrl` + `j` <br> `Ctrl` + `k` <br> `Ctrl` + `l` |
