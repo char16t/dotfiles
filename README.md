@@ -1,10 +1,10 @@
-Installation:
+## Installation
 
     cd ~
     git clone https://github.com/char16t/vimrc.git .vim
     ln -s .vim/vimrc .vimrc
 
-Usage:
+## Usage
 
 Leader &mdash; `,`
  
