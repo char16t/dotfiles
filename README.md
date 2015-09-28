@@ -6,7 +6,11 @@ Installation:
 
 Usage:
 
- * Leader: `,`
- * Write: `leader` `w`
- * Quit: `leader` `q`
- * Quit without saving changes: `leader` `Q`
+Leader &mdash; `,`
+ 
+|| Hotkey |
+|---|---|
+| Write | `,` `w` |
+| Quit | `,` `q` |
+| Quit without saving changes | `,` `Q` |
+
