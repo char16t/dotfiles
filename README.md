@@ -6,6 +6,8 @@
 
 ## Usage
 
+Some hotkeys
+
 Main
 
 || Hotkey |
