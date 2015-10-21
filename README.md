@@ -3,6 +3,11 @@
     cd ~
     git clone https://github.com/char16t/vimrc.git .vim
     ln -s .vim/vimrc .vimrc
+    git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+
+Open Vim and type:
+
+    :PluginInstall
 
 ## Usage
 
