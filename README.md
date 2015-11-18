@@ -4,6 +4,7 @@
     git clone https://github.com/char16t/vimrc.git .vim
     ln -s .vim/vimrc .vimrc
     git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+    sudo apt-get install ctags
 
 Open Vim and type:
 
