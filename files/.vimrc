@@ -70,7 +70,7 @@ Plugin 'tpope/vim-rails'
 Plugin 'tpope/vim-bundler'
 
 Plugin 'tpope/vim-endwise'
-Plugin 'Shougo/vimshell.vim'
+"Plugin 'Shougo/vimshell.vim'
 
 Plugin 'guns/vim-clojure-static'
 Plugin 'tpope/vim-leiningen'
