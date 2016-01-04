@@ -1,0 +1,24 @@
+---
+- hosts: all
+  sudo: true
+  tasks:
+    - name: update apt cache
+      apt: update_cache=yes
+    - name: apt-get install
+      apt: name={{ item }} state=latest
+      with_items:
+        - cmake
+        - ctags
+        - git
+        - subversion
+        - mercurial
+        - build-essential
+        - gdb
+        - python-pip
+        - python3-pip
+        - python-dev
+        - python-setuptools
+        - python-virtualenv
+        - default-jre
+        - default-jdk
+        - libedit-dev
