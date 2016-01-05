@@ -7,6 +7,7 @@
     - name: apt-get install
       apt: name={{ item }} state=latest
       with_items:
+        - tree
         - cmake
         - ctags
         - git
