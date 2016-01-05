@@ -13,6 +13,8 @@
         - subversion
         - mercurial
         - build-essential
+        - automake
+        - autoconf
         - gdb
         - python-pip
         - python3-pip
