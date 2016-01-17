@@ -18,6 +18,8 @@
         - autoconf
         - autotools-dev
         - gdb
+        - flex
+        - bison
         - python-pip
         - python3-pip
         - python-dev
