@@ -28,3 +28,4 @@
         - default-jre
         - default-jdk
         - libedit-dev
+        - erlang-base
