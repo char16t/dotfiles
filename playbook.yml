@@ -38,3 +38,14 @@
       file: src=/usr/bin/clang++-3.5 dest=/usr/bin/clang++ state=link
     - name: Set lldb-3.5 as alias for lldb
       file: src=/usr/bin/lldb-3.5 dest=/usr/bin/lldb state=link
+    - name: Install GCC and G++ 4.9 (1/4)
+      shell: add-apt-repository ppa:ubuntu-toolchain-r/test
+    - name: Install GCC and G++ 4.9 (2/4)
+      shell: apt-get update
+    - name: Install GCC and G++ 4.9 (3/4)
+      apt: name={{ item }} state=latest
+      with_items:
+        - gcc-4.9
+        - g++-4.9
+    - name: Install GCC and G++ 4.9 (4/4)
+      file: src=/usr/bin/gcc-4.9 dest=/usr/bin/gcc state=link
