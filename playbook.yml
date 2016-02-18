@@ -32,6 +32,11 @@
         - default-jdk
         - libedit-dev
         - erlang-base
+    - name: pip install
+      pip: name={{ item }}
+      with_items:
+        - requests
+        - pytest
     - name: Set clang-3.5 as alias for clang
       file: src=/usr/bin/clang-3.5 dest=/usr/bin/clang state=link
     - name: Set clang-3.5++ as alias for clang++
