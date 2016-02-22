@@ -32,6 +32,7 @@
         - default-jdk
         - libedit-dev
         - erlang-base
+        - haskell-platform
     - name: pip install
       pip: name={{ item }}
       with_items:
@@ -54,3 +55,4 @@
         - g++-4.9
     - name: Install GCC and G++ 4.9 (4/4)
       file: src=/usr/bin/gcc-4.9 dest=/usr/bin/gcc state=link
+  
