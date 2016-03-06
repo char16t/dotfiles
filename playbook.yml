@@ -34,6 +34,12 @@
         - libedit-dev
         - erlang-base
         - haskell-platform
+    - name: Cabal update
+      shell: cabal update
+    - name: Install Hlint
+      shell: cabal install hlint
+    - name: Install Hunit
+      shell: cabal install hunit
     - name: pip install
       pip: name={{ item }}
       with_items:
