@@ -326,8 +326,6 @@ nnoremap <leader>q :quit<cr>             " Quit
 nnoremap <leader>Q :q!<cr>               " Quit without saving changes
 nnoremap <leader>n :tabnew<cr>:<C-u>e <C-R>=expand("%:p:h") . '/'<CR>
 nnoremap <Leader>o :<C-u>e <C-R>=expand("%:p:h") . '/'<CR>
-nnoremap <leader>s :new<cr>              " horizontal Split
-nnoremap <leader>v :vnew<cr>             " Vertical split
 nnoremap <leader>l :tabn<cr>             " , + L
 nnoremap <leader>h :tabp<cr>             " , + H
 nnoremap <C-h> <C-w>h
