@@ -23,3 +23,10 @@ Navigation
 | New split | left `,` `←` <br> right `,` `→` <br>  above `,` `↑` <br> below `,` `↓` |
 | Switch to between splits | `Ctrl` + `h`<br> `Ctrl` + `j` <br> `Ctrl` + `k` <br> `Ctrl` + `l` |
 
+Other
+
+|| Hotkey |
+|---|---|
+| Exit from insert mode | `jk` |
+| Go to start of line (like a `Home`) | `Shift` + `h` |
+| Go to end of line (like a `End`) | `Shift` + `l` |
