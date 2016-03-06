@@ -1,5 +1,6 @@
 ---
 - hosts: all
+  gather_facts: no
   sudo: true
   tasks:
     - name: update apt cache
@@ -55,4 +56,3 @@
         - g++-4.9
     - name: Install GCC and G++ 4.9 (4/4)
       file: src=/usr/bin/gcc-4.9 dest=/usr/bin/gcc state=link
-  
