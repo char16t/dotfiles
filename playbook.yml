@@ -8,6 +8,7 @@
     - name: apt-get install
       apt: name={{ item }} state=latest
       with_items:
+        - vim-gnome
         - tree
         - cmake
         - ctags
