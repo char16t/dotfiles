@@ -116,6 +116,7 @@ set cursorline
 set hidden
 set nofoldenable
 "set modelines=0
+set clipboard=unnamedplus
 " set clipboard=unnamed
 "set synmaxcol=128
 "set ttyscroll=10
@@ -403,3 +404,9 @@ inoremap [<CR> [<CR>]<Esc>O
 " Move selected lines
 vnoremap <C-S-k> xkP'[V']
 vnoremap <C-S-j> xp'[V']
+
+" Copy and paste to clipboard
+noremap <Leader>y "*y
+noremap <Leader>p "*p
+noremap <Leader>Y "+y
+noremap <Leader>P "+p
