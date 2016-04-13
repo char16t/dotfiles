@@ -35,6 +35,8 @@
         - libedit-dev
         - erlang-base
         - haskell-platform
+        - nodejs-legacy
+        - npm
     - name: Cabal update
       shell: cabal update
     - name: Install Hlint
