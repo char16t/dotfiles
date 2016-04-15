@@ -12,6 +12,7 @@
         - tree
         - cmake
         - ctags
+        - ack-grep
         - git
         - subversion
         - mercurial
