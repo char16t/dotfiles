@@ -68,3 +68,7 @@
         - g++-4.9
     - name: Install GCC and G++ 4.9 (4/4)
       file: src=/usr/bin/gcc-4.9 dest=/usr/bin/gcc state=link
+    - name: Install Vagrant
+      gem: name=vagrant
+    - name: Install Tmuxinator
+      gem: name=tmuxinator
