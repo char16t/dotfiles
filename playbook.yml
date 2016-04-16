@@ -14,6 +14,7 @@
         - ctags
         - ack-grep
         - tmux
+        - virtualbox
         - git
         - subversion
         - mercurial
