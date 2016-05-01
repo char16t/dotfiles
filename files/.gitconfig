@@ -1,3 +1,18 @@
 [user]
 	name = Valeriy Manenkov
 	email = v.manenkov@gmail.com
+	signingkey = D39D4C5F
+[commit]
+	gpgsign = true
+[core]
+	autocrlf = false
+[alias]
+	co = commit
+	br = branch
+	st = status
+	di = diff
+[merge]
+	tool = vimdiff
+	conflictstyle = diff3
+[mergetool]
+	prompt = false
