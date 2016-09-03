@@ -1,96 +1,91 @@
 set nocompatible
-filetype off
 
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-
-Plugin 'VundleVim/Vundle.vim'
+call plug#begin('~/.vim/bundle')
 
 " Plugin 'nathanaelkane/vim-indent-guides'
-Plugin 'Shougo/vimproc.vim'
-Plugin 'tpope/vim-sleuth'
+Plug 'Shougo/vimproc.vim'
+Plug 'tpope/vim-sleuth'
 " Plugin 'tpope/vim-rvm'
-Plugin 'tpope/vim-sensible'
-Plugin 'tpope/vim-surround'
-Plugin 'scrooloose/syntastic'
-Plugin 'scrooloose/nerdtree'
-Plugin 'tpope/vim-commentary'
-Plugin 'tpope/vim-repeat'
-Plugin 'tpope/vim-unimpaired'
-Plugin 'ctrlpvim/ctrlp.vim'
+Plug 'tpope/vim-sensible'
+Plug 'tpope/vim-surround'
+Plug 'scrooloose/syntastic'
+Plug 'scrooloose/nerdtree'
+Plug 'tpope/vim-commentary'
+Plug 'tpope/vim-repeat'
+Plug 'tpope/vim-unimpaired'
+Plug 'ctrlpvim/ctrlp.vim'
 " Plugin 'altercation/vim-colors-solarized'
-Plugin 'nanotech/jellybeans.vim'
-Plugin 'mileszs/ack.vim'
-Plugin 'tpope/vim-fugitive'
-Plugin 'bling/vim-airline'
+Plug 'nanotech/jellybeans.vim'
+Plug 'mileszs/ack.vim'
+Plug 'tpope/vim-fugitive'
+Plug 'bling/vim-airline'
 " Plugin 'jeetsukumaran/vim-buffergator'
-Plugin 'tpope/vim-projectionist'
-Plugin 'tpope/vim-dispatch'
-Plugin 'majutsushi/tagbar'
-Plugin 'godlygeek/tabular'
-Plugin 'mbbill/undotree'
+Plug 'tpope/vim-projectionist'
+Plug 'tpope/vim-dispatch'
+Plug 'majutsushi/tagbar'
+Plug 'godlygeek/tabular'
+Plug 'mbbill/undotree'
 " Plugin 'kchmck/vim-coffee-script'
-Plugin 'othree/html5.vim'
-Plugin 'digitaltoad/vim-jade'
+Plug 'othree/html5.vim'
+Plug 'digitaltoad/vim-jade'
 " Plugin 'tmatilai/vim-monit'
-Plugin 'ervandew/supertab'
+Plug 'ervandew/supertab'
 " Plugin 'jpalardy/vim-slime'
 " Plugin 'Matt-Deacalion/vim-systemd-syntax'
-Plugin 'editorconfig/editorconfig-vim'
-Plugin 'fatih/vim-go'
-Plugin 'jimenezrick/vimerl'
-Plugin 'wting/rust.vim'
+Plug 'editorconfig/editorconfig-vim'
+Plug 'fatih/vim-go'
+Plug 'jimenezrick/vimerl'
+Plug 'wting/rust.vim'
 " Plugin 'cespare/vim-toml'
 " Plugin 'facebook/vim-flow'
-Plugin '2072/PHP-Indenting-for-VIm'
+Plug '2072/PHP-Indenting-for-VIm'
 
-Plugin 'eagletmt/ghcmod-vim'
-Plugin 'raichoo/haskell-vim'
+Plug 'eagletmt/ghcmod-vim'
+Plug 'raichoo/haskell-vim'
 
-Plugin 'elzr/vim-json'
+Plug 'elzr/vim-json'
 " Plugin 'vim-scripts/JavaScript-Indent'
-Plugin 'pangloss/vim-javascript'
-Plugin 'mxw/vim-jsx'
-Plugin 'moll/vim-node'
+Plug 'pangloss/vim-javascript'
+Plug 'mxw/vim-jsx'
+Plug 'moll/vim-node'
 " Plugin 'mattn/emmet-vim'
 
-Plugin 'xolox/vim-misc'
-Plugin 'xolox/vim-easytags'
+Plug 'xolox/vim-misc'
+Plug 'xolox/vim-easytags'
 
-Plugin 'Valloric/MatchTagAlways'
+Plug 'Valloric/MatchTagAlways'
 
-Plugin 'plasticboy/vim-markdown'
+Plug 'plasticboy/vim-markdown'
 " Plugin 'greyblake/vim-preview'
 
 " Plugin 'tpope/vim-haml'
-Plugin 'tpope/vim-git'
+Plug 'tpope/vim-git'
 
-Plugin 'vim-ruby/vim-ruby'
-Plugin 'tpope/vim-rails'
-Plugin 'tpope/vim-bundler'
+Plug 'vim-ruby/vim-ruby'
+Plug 'tpope/vim-rails'
+Plug 'tpope/vim-bundler'
 
-Plugin 'tpope/vim-endwise'
+Plug 'tpope/vim-endwise'
 "Plugin 'Shougo/vimshell.vim'
 
-Plugin 'guns/vim-clojure-static'
-Plugin 'tpope/vim-leiningen'
-Plugin 'tpope/vim-classpath'
-Plugin 'tpope/vim-fireplace'
-Plugin 'venantius/vim-eastwood'
+Plug 'guns/vim-clojure-static'
+Plug 'tpope/vim-leiningen'
+Plug 'tpope/vim-classpath'
+Plug 'tpope/vim-fireplace'
+Plug 'venantius/vim-eastwood'
 
-Plugin 'vim-scripts/paredit.vim'
-Plugin 'wlangstroth/vim-racket'
+Plug 'vim-scripts/paredit.vim'
+Plug 'wlangstroth/vim-racket'
 
-Plugin 'stephpy/vim-yaml'
+Plug 'stephpy/vim-yaml'
 
-Plugin 'chrisbra/csv.vim'
-Plugin 'ekalinin/Dockerfile.vim'
+Plug 'chrisbra/csv.vim'
+Plug 'ekalinin/Dockerfile.vim'
 
-call vundle#end()
+call plug#end()
+
 syntax on
 filetype on
-filetype plugin indent on
-filetype plugin on
 
 let mapleader=","
 
@@ -410,3 +405,35 @@ noremap <Leader>y "*y
 noremap <Leader>p "*p
 noremap <Leader>Y "+y
 noremap <Leader>P "+p
+
+
+" File encoding
+" https://www.opennet.ru/base/rus/vim_rus_text.txt.html
+
+"<F7> EOL format (dos <CR><NL>,unix <NL>,mac <CR>)
+set  wildmenu
+set  wcm=<Tab>
+menu EOL.unix :set fileformat=unix<CR>
+menu EOL.dos  :set fileformat=dos<CR>
+menu EOL.mac  :set fileformat=mac<CR>
+map  <F7> :emenu EOL.<Tab>
+
+"<F8> Change encoding
+set  wildmenu
+set  wcm=<Tab>
+menu Enc.cp1251     :e ++enc=cp1251<CR>
+menu Enc.koi8-r     :e ++enc=koi8-r<CR>
+menu Enc.cp866      :e ++enc=ibm866<CR>
+menu Enc.utf-8      :e ++enc=utf-8<CR>
+menu Enc.ucs-2le    :e ++enc=ucs-2le<CR>
+map  <F8> :emenu Enc.<Tab>
+
+"<Shift+F8> Convert file encoding
+set  wildmenu
+set  wcm=<Tab>
+menu FEnc.cp1251    :set fenc=cp1251<CR>
+menu FEnc.koi8-r    :set fenc=koi8-r<CR>
+menu FEnc.cp866     :set fenc=ibm866<CR>
+menu FEnc.utf-8     :set fenc=utf-8<CR>
+menu FEnc.ucs-2le   :set fenc=ucs-2le<CR>
+map  <S-F8> :emenu FEnc.<Tab>

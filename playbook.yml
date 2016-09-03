@@ -1,75 +1,83 @@
 ---
 - hosts: all
   gather_facts: no
-  sudo: true
+  become: yes
   tasks:
     - name: update apt cache
       apt: update_cache=yes
     - name: apt-get install
       apt: name={{ item }} state=latest
       with_items:
+        # Vim
         - vim-gnome
-        - tree
-        - cmake
-        - ctags
-        - ack-grep
+        # Python
+        - python-setuptools
+        - python-virtualenv
+        # Python 2
+        - python2.7
+        - python2.7-dbg
+        - python2.7-dev
+        - python-pip
+        # Python 3
+        - python3-all
+        - python3-all-dbg
+        - python3-all-dev
+        - python3-pip
+        # Tmux
         - tmux
-        - virtualbox
+        # Git
         - git
+        - git-flow
+        # Version control
         - subversion
         - mercurial
+        # Java
+        - openjdk-8-jre
+        - openjdk-8-jdk
+        - maven
+        - ant
+        - ant-contrib
+        - gradle
+        # KVM
+        - qemu-kvm
+        # C/C++
         - build-essential
         - automake
         - autoconf
         - autotools-dev
-        - llvm
-        - clang-3.5
-        - lldb-3.5
+        - gcc
+        - g++
         - gdb
+        - libc6-dev
+        - clang
+        - llvm
+        - lldb
+        - cmake
+        # Rust
+        - rust-doc
+        - rust-gdb
+        - rust-lldb
+        - rustc
+        # Clojure
+        - clojure1.6
+        # Erlang
+        - erlang-base
+        # Ruby
+        - ruby
+        # NodeJS
+        - nodejs
+        - npm
+        # GPG
+        - gnupg
+        # TeX
+        - texlive-full
+        # Other
+        - emacs
+        - tree
+        - man-db
+        - sudo
+        - xclip
+        - ctags
+        - ack-grep
         - flex
         - bison
-        - python-pip
-        - python3-pip
-        - python-dev
-        - python-setuptools
-        - python-virtualenv
-        - default-jre
-        - default-jdk
-        - libedit-dev
-        - erlang-base
-        - haskell-platform
-        - nodejs-legacy
-        - npm
-    - name: Cabal update
-      shell: cabal update
-    - name: Install Hlint
-      shell: cabal install hlint
-    - name: Install Hunit
-      shell: cabal install hunit
-    - name: pip install
-      pip: name={{ item }}
-      with_items:
-        - requests
-        - pytest
-        - ply
-    - name: Set clang-3.5 as alias for clang
-      file: src=/usr/bin/clang-3.5 dest=/usr/bin/clang state=link
-    - name: Set clang-3.5++ as alias for clang++
-      file: src=/usr/bin/clang++-3.5 dest=/usr/bin/clang++ state=link
-    - name: Set lldb-3.5 as alias for lldb
-      file: src=/usr/bin/lldb-3.5 dest=/usr/bin/lldb state=link
-    - name: Install GCC and G++ 4.9 (1/4)
-      shell: add-apt-repository ppa:ubuntu-toolchain-r/test
-    - name: Install GCC and G++ 4.9 (2/4)
-      shell: apt-get update
-    - name: Install GCC and G++ 4.9 (3/4)
-      apt: name={{ item }} state=latest
-      with_items:
-        - gcc-4.9
-        - g++-4.9
-    - name: Install GCC and G++ 4.9 (4/4)
-      file: src=/usr/bin/gcc-4.9 dest=/usr/bin/gcc state=link
-    - name: Install Vagrant
-      gem: name=vagrant
-    - name: Install Tmuxinator
-      gem: name=tmuxinator
