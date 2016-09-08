@@ -48,6 +48,7 @@
         - gcc
         - g++
         - gdb
+        - lcov
         - valgrind
         - libc6-dev
         - clang
