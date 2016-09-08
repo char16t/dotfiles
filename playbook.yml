@@ -55,6 +55,7 @@
         - llvm
         - lldb
         - cmake
+        - libgdbm-dev
         # Tcl
         - tcl
         - tcl-dev
