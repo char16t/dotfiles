@@ -55,6 +55,12 @@
         - llvm
         - lldb
         - cmake
+        # Tcl
+        - tcl
+        - tcl-dev
+        - tcl-doc
+        # Lua
+        - lua-any
         # Rust
         - rust-doc
         - rust-gdb
