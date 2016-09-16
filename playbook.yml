@@ -91,3 +91,13 @@
         - ack-grep
         - flex
         - bison
+    - name: pip install
+      pip: name={{ item }} executable=pip  state=latest
+      with_items:
+        - requests
+        - pyyaml
+    - name: pip3 install
+      pip: name={{ item }} executable=pip3  state=latest
+      with_items:
+        - requests
+        - pyyaml
