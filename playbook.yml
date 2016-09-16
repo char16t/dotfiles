@@ -81,6 +81,15 @@
         - gnupg
         # TeX
         - texlive-full
+        # SciPy
+        - python-numpy
+        - python-scipy
+        - python-matplotlib
+        - ipython 
+        - ipython-notebook
+        - python-pandas
+        - python-sympy
+        - python-nose
         # Other
         - emacs
         - tree
@@ -94,7 +103,6 @@
     - name: pip install
       pip: name={{ item }} executable=pip  state=latest
       with_items:
-        - ipython
         - requests
         - pyyaml
     - name: pip3 install
