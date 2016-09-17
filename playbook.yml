@@ -103,6 +103,7 @@
     - name: pip install
       pip: name={{ item }} executable=pip  state=latest
       with_items:
+        - jupyter
         - requests
         - pyyaml
     - name: pip3 install
