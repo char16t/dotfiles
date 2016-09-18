@@ -260,9 +260,9 @@ vnoremap <C-S-j> xp'[V']
 
 " Copy and paste to clipboard
 noremap <Leader>y "*y
-noremap <Leader>p "*p
+noremap <Leader>p :set paste<cr>"*p:set nopaste<cr>
 noremap <Leader>Y "+y
-noremap <Leader>P "+p
+noremap <Leader>P :set paste<cr>"+p:set nopaste<cr>
 
 " jk | Escaping
 inoremap jk <Esc>
