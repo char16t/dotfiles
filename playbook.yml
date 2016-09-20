@@ -90,6 +90,9 @@
         - python-pandas
         - python-sympy
         - python-nose
+        # OCaml
+        - ocaml
+        - opam
         # Other
         - emacs
         - tree
