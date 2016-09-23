@@ -60,6 +60,7 @@
         - libssl-dev
         - libz3-dev
         - libre2-dev
+        - libgraphicsmagick1-dev
         # Tcl
         - tcl
         - tcl-dev
