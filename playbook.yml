@@ -63,6 +63,7 @@
         - libgraphicsmagick1-dev
         - libtiff5-dev
         - libfreetype6-dev
+        - libjasper-dev
         # Tcl
         - tcl
         - tcl-dev
