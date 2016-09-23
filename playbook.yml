@@ -62,6 +62,7 @@
         - libre2-dev
         - libgraphicsmagick1-dev
         - libtiff5-dev
+        - libfreetype6-dev
         # Tcl
         - tcl
         - tcl-dev
