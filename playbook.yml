@@ -69,6 +69,7 @@
         - libbz2-dev
         - libgomp1
         - libwebp-dev
+        - liblzma-dev
         # Tcl
         - tcl
         - tcl-dev
