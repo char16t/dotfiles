@@ -67,6 +67,7 @@
         - libjpeg-dev
         - libpng-dev
         - libbz2-dev
+        - libgomp1
         # Tcl
         - tcl
         - tcl-dev
