@@ -57,6 +57,7 @@
         - cmake
         - libreadline-dev
         - libgdbm-dev
+        - libssl-dev
         # Tcl
         - tcl
         - tcl-dev
