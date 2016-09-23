@@ -70,6 +70,7 @@
         - libgomp1
         - libwebp-dev
         - liblzma-dev
+        - libncurses5-dev
         # Tcl
         - tcl
         - tcl-dev
