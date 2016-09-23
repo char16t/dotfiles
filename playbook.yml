@@ -58,6 +58,7 @@
         - libreadline-dev
         - libgdbm-dev
         - libssl-dev
+        - libz3-dev
         # Tcl
         - tcl
         - tcl-dev
