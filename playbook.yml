@@ -71,6 +71,7 @@
         - libwebp-dev
         - liblzma-dev
         - libncurses5-dev
+        - libaspell-dev
         # Tcl
         - tcl
         - tcl-dev
