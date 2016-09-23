@@ -66,6 +66,7 @@
         - libjasper-dev
         - libjpeg-dev
         - libpng-dev
+        - libbz2-dev
         # Tcl
         - tcl
         - tcl-dev
