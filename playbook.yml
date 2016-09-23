@@ -72,6 +72,7 @@
         - liblzma-dev
         - libncurses5-dev
         - libaspell-dev
+        - libfuse-dev
         # Tcl
         - tcl
         - tcl-dev
