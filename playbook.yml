@@ -68,6 +68,7 @@
         - libpng-dev
         - libbz2-dev
         - libgomp1
+        - libwebp-dev
         # Tcl
         - tcl
         - tcl-dev
