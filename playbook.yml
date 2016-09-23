@@ -59,6 +59,7 @@
         - libgdbm-dev
         - libssl-dev
         - libz3-dev
+        - libre2-dev
         # Tcl
         - tcl
         - tcl-dev
