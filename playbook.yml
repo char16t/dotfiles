@@ -64,6 +64,7 @@
         - libtiff5-dev
         - libfreetype6-dev
         - libjasper-dev
+        - libjpeg-dev
         # Tcl
         - tcl
         - tcl-dev
