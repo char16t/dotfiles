@@ -110,6 +110,10 @@
         # OCaml
         - ocaml
         - opam
+        # Archives
+        - unrar-free
+        - p7zip-full
+        - cabextract
         # Other
         - emacs
         - tree
