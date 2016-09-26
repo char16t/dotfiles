@@ -75,6 +75,7 @@
         - libfuse-dev
         - libdlib-dev
         - libgtest-dev
+        - libboost-all-dev
         # Tcl
         - tcl
         - tcl-dev
