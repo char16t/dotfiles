@@ -74,6 +74,7 @@
         - libaspell-dev
         - libfuse-dev
         - libdlib-dev
+        - libgtest-dev
         # Tcl
         - tcl
         - tcl-dev
