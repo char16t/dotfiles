@@ -118,6 +118,7 @@
         - cabextract
         # Other
         - emacs
+        - mc
         - tree
         - man-db
         - sudo
