@@ -127,6 +127,7 @@
         - ack-grep
         - flex
         - bison
+        - doxygen
         - python-sphinx
     - name: Use ld.gold instead ld.bfd
       shell: update-alternatives --install "/usr/bin/ld" "ld" "/usr/bin/ld.gold" 20 && update-alternatives --install "/usr/bin/ld" "ld" "/usr/bin/ld.bfd" 10 && update-alternatives --config ld
