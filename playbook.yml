@@ -119,6 +119,7 @@
         # Mail
         - esmtp
         - mutt
+        - git-email
         # Other
         - emacs
         - mc
