@@ -117,7 +117,7 @@
         - p7zip-full
         - cabextract
         # Mail
-        - esmtp
+        - msmtp
         - mutt
         - git-email
         # Other
