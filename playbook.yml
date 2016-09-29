@@ -116,6 +116,8 @@
         - unrar-free
         - p7zip-full
         - cabextract
+        # Mail
+        - esmtp
         # Other
         - emacs
         - mc
