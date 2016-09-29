@@ -118,6 +118,7 @@
         - cabextract
         # Mail
         - esmtp
+        - mutt
         # Other
         - emacs
         - mc
