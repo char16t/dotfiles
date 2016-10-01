@@ -141,8 +141,10 @@
         - jupyter
         - requests
         - pyyaml
+        - Jinja2
     - name: pip3 install
       pip: name={{ item }} executable=pip3  state=latest
       with_items:
         - requests
         - pyyaml
+        - Jinja2
