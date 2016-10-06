@@ -36,4 +36,8 @@ export LC_ADDRESS=ru_RU.UTF-8
 export LC_TELEPHONE=ru_RU.UTF-8
 export LC_MEASUREMENT=ru_RU.UTF-8
 export LC_IDENTIFICATION=ru_RU.UTF-8
-export LC_ALL=ru_RU.UTF-8
+export LC_ALL=C.UTF-8
+export LC_LANG=C.UTF-8
+
+# OPAM configuration
+. /home/user/.opam/opam-init/init.sh > /dev/null 2> /dev/null || true
