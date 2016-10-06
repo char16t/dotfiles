@@ -38,3 +38,6 @@ export LC_MEASUREMENT=ru_RU.UTF-8
 export LC_IDENTIFICATION=ru_RU.UTF-8
 export LC_ALL=C.UTF-8
 export LC_LANG=C.UTF-8
+
+export EDITOR=vim
+export PAGER=less
