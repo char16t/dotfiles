@@ -6,5 +6,6 @@ sudo apt-get update
 sudo apt-get install ansible
 ansible-playbook playbook.yml -i local
 for f in `pwd`/files/.[^.]*; do ln -fs $f ~/`basename $f`; done
-git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 vim -c "PlugInstall"
