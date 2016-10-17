@@ -277,7 +277,7 @@ map <F3> :TagbarToggle<CR>
 
 " <F4> Paste mode
 nmap <silent> <F4> :set invpaste<CR>:set paste?<CR>
-imap <silent> <F4> <ESC>:set invpaste<CR>:set paste?<CR>
+imap <silent> <F4> <ESC>:set invpaste<CR>:set paste?<CR>i
 
 " <F5> Undotree
 nnoremap <F5> :UndotreeToggle<cr>
