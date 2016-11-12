@@ -77,6 +77,8 @@
         - libgtest-dev
         - libboost-all-dev
         - libiomp-dev
+        - gnulib
+        - libglib2.0-dev
         # Tcl
         - tcl
         - tcl-dev
