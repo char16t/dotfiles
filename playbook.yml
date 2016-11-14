@@ -3,6 +3,8 @@
   gather_facts: no
   become: yes
   tasks:
+    - name: Add PPA for golang
+      apt_repository: repo='ppa:ubuntu-lxc/lxd-stable' state=present
     - name: update apt cache
       apt: update_cache=yes
     - name: apt-get install
@@ -140,6 +142,8 @@
         - dh-make
         - rpm
         - xsltproc
+        # Go
+        - golang
     - name: Use ld.gold instead ld.bfd
       shell: update-alternatives --install "/usr/bin/ld" "ld" "/usr/bin/ld.gold" 20 && update-alternatives --install "/usr/bin/ld" "ld" "/usr/bin/ld.bfd" 10 && update-alternatives --config ld
     - name: pip install
