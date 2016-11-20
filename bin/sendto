@@ -8,7 +8,7 @@ fi
 
 if [ $# -eq 2 ]
 then
-  subject="File $(basename 2)"
+  subject="File $(basename $2)"
 fi
 
 if [ $# -gt 2 ]
