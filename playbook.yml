@@ -142,6 +142,7 @@
         - dh-make
         - rpm
         - xsltproc
+        - uuid-runtime
         # Go
         - golang
     - name: Use ld.gold instead ld.bfd
