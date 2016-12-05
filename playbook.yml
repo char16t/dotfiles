@@ -130,6 +130,7 @@
         - msmtp
         - mutt
         - git-email
+        - offlineimap
         # Other
         - emacs
         - mc
@@ -148,6 +149,7 @@
         - rpm
         - xsltproc
         - uuid-runtime
+        - sup-mail
         # Go
         - golang
     - name: Use ld.gold instead ld.bfd
