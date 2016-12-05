@@ -5,6 +5,8 @@
   tasks:
     - name: Add PPA for golang
       apt_repository: repo='ppa:ubuntu-lxc/lxd-stable' state=present
+    - name: Add PPA for Neovim
+      apt_repository: repo='ppa:neovim-ppa/unstable' state=present
     - name: update apt cache
       apt: update_cache=yes
     - name: apt-get install
@@ -12,6 +14,7 @@
       with_items:
         # Vim
         - vim-gnome
+        - neovim
         # Python
         - python-setuptools
         - python-virtualenv
@@ -25,6 +28,7 @@
         - python3-all-dbg
         - python3-all-dev
         - python3-pip
+        - python3-setuptools
         # Tmux
         - tmux
         # Git
