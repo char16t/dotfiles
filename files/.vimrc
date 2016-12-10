@@ -165,6 +165,9 @@ if exists('&colorcolumn')
     set colorcolumn=80
 endif
 
+" Monitor realtime changes of file
+set autoread
+
 " Disable automatic formatting
 autocmd FileType * setlocal formatoptions-=t 
 autocmd FileType * setlocal formatoptions-=c 
