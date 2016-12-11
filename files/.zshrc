@@ -17,3 +17,6 @@ export LC_LANG=C.UTF-8
 
 # Add ~/bin and /usr/local/bin to PATH
 export PATH=$HOME/bin:/usr/local/bin:$PATH
+
+# Prompt settings
+PROMPT='%F{blue}%/%F{white}%# '
