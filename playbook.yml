@@ -168,3 +168,7 @@
         - pyyaml
         - Jinja2
         - cookiecutter
+    - name: Set zsh as default shell
+      user:
+        name: user
+        shell: /bin/zsh
