@@ -18,6 +18,11 @@ export LC_LANG=C.UTF-8
 # Add ~/bin and /usr/local/bin to PATH
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 
+# Start tmux on logon
+if command -v tmux>/dev/null; then
+    [[ ! $TERM =~ screen ]] && [ -z $TMUX ] && exec tmux
+fi
+
 # Path to your oh-my-zsh installation.
 export ZSH=/home/user/.oh-my-zsh
 
