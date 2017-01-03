@@ -1,9 +1,9 @@
 [user]
 	name = Valeriy Manenkov
 	email = v@manenkov.com
-	signingkey = 2366877A
+#	signingkey = 2366877A
 [commit]
-	gpgsign = true
+#	gpgsign = true
 [core]
 	autocrlf = false
 [alias]
