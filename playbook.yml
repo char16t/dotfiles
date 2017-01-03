@@ -19,7 +19,7 @@
     - name: update apt cache
       apt: update_cache=yes
     - name: apt-get install
-      apt: name={{ item }} state=latest force=yes
+      apt: name={{ item }} state=latest
       with_items:
         # Vim
         - vim-gnome
