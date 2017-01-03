@@ -3,14 +3,23 @@
   gather_facts: no
   become: yes
   tasks:
+    - name: Install apt-transport-https
+      apt: name=apt-transport-https state=latest
+    - name: Add gpg key for weechat
+      shell: apt-key adv --keyserver ha.pool.sks-keyservers.net --recv-keys 11E9DE8848F2B65222AA75B8D1820DB22A11534E
+      become: yes
     - name: Add PPA for golang
       apt_repository: repo='ppa:ubuntu-lxc/lxd-stable' state=present
     - name: Add PPA for Neovim
       apt_repository: repo='ppa:neovim-ppa/unstable' state=present
+    - name: Add repo for Weechat
+      apt_repository: 
+        repo: deb https://weechat.org/ubuntu yakkety main
+        state: present
     - name: update apt cache
       apt: update_cache=yes
     - name: apt-get install
-      apt: name={{ item }} state=latest
+      apt: name={{ item }} state=latest force=yes
       with_items:
         # Vim
         - vim-gnome
@@ -150,6 +159,12 @@
         - xsltproc
         - uuid-runtime
         - sup-mail
+        # Weechat
+        - libgcrypt20-dev
+        - weechat-core
+        - weechat-curses
+        - weechat-plugins
+        - weechat
         # Go
         - golang
         # C Sharp
