@@ -95,6 +95,7 @@
         - libiomp-dev
         - gnulib
         - libglib2.0-dev
+        - mesa-common-dev
         # Tcl
         - tcl
         - tcl-dev
