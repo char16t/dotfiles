@@ -97,6 +97,7 @@
         - libglib2.0-dev
         - mesa-common-dev
         - libsdl1.2-dev
+        - freeglut3-dev
         # Tcl
         - tcl
         - tcl-dev
