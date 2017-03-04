@@ -96,6 +96,7 @@
         - gnulib
         - libglib2.0-dev
         - mesa-common-dev
+        - libsdl1.2-dev
         # Tcl
         - tcl
         - tcl-dev
