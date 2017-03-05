@@ -15,6 +15,10 @@ export LC_IDENTIFICATION=ru_RU.UTF-8
 export LC_ALL=C.UTF-8
 export LC_LANG=C.UTF-8
 
+# Setting up GOPATH
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
+
 # Add ~/bin and /usr/local/bin to PATH
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 
