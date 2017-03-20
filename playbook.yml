@@ -99,6 +99,8 @@
         - libsdl1.2-dev
         - freeglut3-dev
         - libxft-dev
+        - libxmu-headers
+        - libxmu-dev
         - libxft2
         # Tcl
         - tcl
