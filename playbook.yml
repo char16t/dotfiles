@@ -162,6 +162,7 @@
         - xsltproc
         - uuid-runtime
         - sup-mail
+        - fontconfig
         # Weechat
         - libgcrypt20-dev
         - weechat-core
