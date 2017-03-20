@@ -98,6 +98,7 @@
         - mesa-common-dev
         - libsdl1.2-dev
         - freeglut3-dev
+        - libxft2
         # Tcl
         - tcl
         - tcl-dev
