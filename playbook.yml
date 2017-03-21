@@ -122,6 +122,7 @@
         - libksba-dev
         # SQLite
         - sqlite
+        - sqlite3
         # Tcl
         - tcl
         - tcl-dev
