@@ -118,6 +118,7 @@
         - libassuan0
         - libnpth0
         - libnpth0-dev
+        - libksba8
         # Tcl
         - tcl
         - tcl-dev
