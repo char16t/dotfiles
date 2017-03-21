@@ -103,6 +103,8 @@
         - libxmu-dev
         - libevent-dev
         - libxft2
+        - libtool
+        - libtool-bin
         # Tcl
         - tcl
         - tcl-dev
