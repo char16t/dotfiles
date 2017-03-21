@@ -111,6 +111,7 @@
         - libaprutil1
         - libaprutil1-dev
         - libaprutil1-dbg
+        - libaprutil1-dbd-sqlite3
         # Tcl
         - tcl
         - tcl-dev
