@@ -119,6 +119,7 @@
         - libnpth0
         - libnpth0-dev
         - libksba8
+        - libksba-dev
         # Tcl
         - tcl
         - tcl-dev
