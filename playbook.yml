@@ -125,6 +125,7 @@
         - sqlite3
         - libsqlite3-dev
         - sqlite3-doc
+        - sqlite3-pcre
         # Tcl
         - tcl
         - tcl-dev
