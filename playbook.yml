@@ -117,6 +117,7 @@
         - libassuan-dev
         - libassuan0
         - libnpth0
+        - libnpth0-dev
         # Tcl
         - tcl
         - tcl-dev
