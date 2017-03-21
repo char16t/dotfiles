@@ -101,6 +101,7 @@
         - libxft-dev
         - libxmu-headers
         - libxmu-dev
+        - libevent-dev
         - libxft2
         # Tcl
         - tcl
