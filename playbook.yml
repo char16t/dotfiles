@@ -108,6 +108,7 @@
         - libapr1
         - libapr1-dbg
         - libapr1-dev
+        - libaprutil1
         # Tcl
         - tcl
         - tcl-dev
