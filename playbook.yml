@@ -116,6 +116,7 @@
         - libserf-dev
         - libassuan-dev
         - libassuan0
+        - libnpth0
         # Tcl
         - tcl
         - tcl-dev
