@@ -113,6 +113,7 @@
         - libaprutil1-dbg
         - libaprutil1-dbd-sqlite3
         - libserf-1-1
+        - libserf-dev
         # Tcl
         - tcl
         - tcl-dev
