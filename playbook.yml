@@ -123,6 +123,7 @@
         # SQLite
         - sqlite
         - sqlite3
+        - libsqlite3-dev
         # Tcl
         - tcl
         - tcl-dev
