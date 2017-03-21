@@ -106,6 +106,7 @@
         - libtool
         - libtool-bin
         - libapr1
+        - libapr1-dbg
         # Tcl
         - tcl
         - tcl-dev
