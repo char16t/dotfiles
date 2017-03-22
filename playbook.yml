@@ -133,6 +133,7 @@
         - libisl-dbg
         - libisl-dev
         - libisl15
+        - libxpm-dev
         # SQLite
         - sqlite
         - sqlite3
