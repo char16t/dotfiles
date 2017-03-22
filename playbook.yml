@@ -122,6 +122,7 @@
         - libksba-dev
         - libgmp-dev
         - libgmp10
+        - libgmp10-doc
         # SQLite
         - sqlite
         - sqlite3
