@@ -124,6 +124,7 @@
         - libgmp10
         - libgmp10-doc
         - libgmpxx4ldbl
+        - libgmp3-dev
         # SQLite
         - sqlite
         - sqlite3
