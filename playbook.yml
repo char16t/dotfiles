@@ -131,6 +131,7 @@
         - libmpfr4-dbg
         - libmpc-dev
         - libisl-dbg
+        - libisl-dev
         # SQLite
         - sqlite
         - sqlite3
