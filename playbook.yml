@@ -136,6 +136,7 @@
         - libxpm-dev
         - libxpm4
         - libgif-dev
+        - gnutls-bin
         # SQLite
         - sqlite
         - sqlite3
