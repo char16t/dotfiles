@@ -135,6 +135,7 @@
         - libisl15
         - libxpm-dev
         - libxpm4
+        - libgif-dev
         # SQLite
         - sqlite
         - sqlite3
