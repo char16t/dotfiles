@@ -138,6 +138,7 @@
         - libgif-dev
         - gnutls-bin
         - gnutls-doc
+        - libgnutls30
         # SQLite
         - sqlite
         - sqlite3
