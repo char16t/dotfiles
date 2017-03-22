@@ -120,6 +120,7 @@
         - libnpth0-dev
         - libksba8
         - libksba-dev
+        - libgmp-dev
         # SQLite
         - sqlite
         - sqlite3
