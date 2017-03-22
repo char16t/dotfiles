@@ -132,6 +132,7 @@
         - libmpc-dev
         - libisl-dbg
         - libisl-dev
+        - libisl15
         # SQLite
         - sqlite
         - sqlite3
