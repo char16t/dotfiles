@@ -129,6 +129,7 @@
         - libmpfr-doc
         - libmpfr-dev
         - libmpfr4-dbg
+        - libmpc-dev
         # SQLite
         - sqlite
         - sqlite3
