@@ -141,6 +141,7 @@
         - libgnutls30
         - imagemagick
         - imagemagick-common
+        - imagemagick-dbg
         # SQLite
         - sqlite
         - sqlite3
