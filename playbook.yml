@@ -139,6 +139,7 @@
         - gnutls-bin
         - gnutls-doc
         - libgnutls30
+        - imagemagick
         # SQLite
         - sqlite
         - sqlite3
