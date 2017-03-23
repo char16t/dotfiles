@@ -69,6 +69,7 @@
         - libc6-dev
         - libc++1
         - libc++abi-dev
+        - libc++abi-test
         - clang
         - llvm
         - lldb
