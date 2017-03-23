@@ -68,6 +68,7 @@
         - valgrind
         - libc6-dev
         - libc++1
+        - libc++abi-dev
         - clang
         - llvm
         - lldb
