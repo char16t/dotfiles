@@ -211,6 +211,7 @@
         - sup-mail
         - fontconfig
         - asciidoc
+        - fig2dev
         # Weechat
         - libgcrypt20-dev
         - weechat-core
