@@ -72,6 +72,7 @@
         - libc++abi-test
         - libc++abi1
         - libc++-dev
+        - libc++-helpers
         - clang
         - llvm
         - lldb
