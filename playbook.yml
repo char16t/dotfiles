@@ -142,6 +142,7 @@
         - imagemagick
         - imagemagick-common
         - imagemagick-dbg
+        - imagemagick-doc
         # SQLite
         - sqlite
         - sqlite3
