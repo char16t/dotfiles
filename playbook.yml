@@ -67,6 +67,7 @@
         - lcov
         - valgrind
         - libc6-dev
+        - libc++1
         - clang
         - llvm
         - lldb
