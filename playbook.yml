@@ -140,6 +140,7 @@
         - gnutls-doc
         - libgnutls30
         - imagemagick
+        - imagemagick-common
         # SQLite
         - sqlite
         - sqlite3
