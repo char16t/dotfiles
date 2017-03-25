@@ -1,0 +1,14 @@
+---
+- hosts: all
+  gather_facts: no
+  tasks:
+    - git:
+        repo: 'https://github.com/neovim/neovim.git'
+        dest: '~/Sources/neovim'
+        update: yes
+      register: neovim_sources_updated
+    - shell: cd ~/Sources/neovim && make
+      when: neovim_sources_updated.changed
+    - shell: cd ~/Sources/neovim && sudo make install 
+      when: neovim_sources_updated.changed
+      become: yes
