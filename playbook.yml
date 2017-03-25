@@ -168,6 +168,7 @@
         - lua-bit32
         - lua-bit32-dev
         - lua-bitop
+        - lua-bitop-dev
         # Rust
         - rust-doc
         - rust-gdb
