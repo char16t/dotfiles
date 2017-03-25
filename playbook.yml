@@ -149,6 +149,7 @@
         - imagemagick-common
         - imagemagick-dbg
         - imagemagick-doc
+        - mpack
         # SQLite
         - sqlite
         - sqlite3
