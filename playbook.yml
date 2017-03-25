@@ -166,6 +166,7 @@
         - lua-mpack
         - lua-lpeg
         - lua-bit32
+        - lua-bit32-dev
         # Rust
         - rust-doc
         - rust-gdb
