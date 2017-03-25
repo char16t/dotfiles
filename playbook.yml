@@ -163,6 +163,7 @@
         - tcl-doc
         # Lua
         - lua-any
+        - lua-mpack
         # Rust
         - rust-doc
         - rust-gdb
