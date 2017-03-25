@@ -164,6 +164,7 @@
         # Lua
         - lua-any
         - lua-mpack
+        - lua-lpeg
         # Rust
         - rust-doc
         - rust-gdb
