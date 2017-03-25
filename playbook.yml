@@ -150,6 +150,7 @@
         - imagemagick-dbg
         - imagemagick-doc
         - mpack
+        - libmpack-dev
         # SQLite
         - sqlite
         - sqlite3
