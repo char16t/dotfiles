@@ -12,6 +12,18 @@
       apt_repository: repo='ppa:ubuntu-lxc/lxd-stable' state=present
     - name: Add PPA for Neovim
       apt_repository: repo='ppa:neovim-ppa/unstable' state=present
+    - name: Add repository for SBT
+      apt_repository: 
+        repo: 'deb https://dl.bintray.com/sbt/debian /'
+        state: present
+    
+    # sudo apt-key adv 
+    #  --keyserver hkp://keyserver.ubuntu.com:80 
+    #  --recv 2EE0EA64E40A89B84B2DF73499E82A75642AC823
+    - name: Add key for SBT
+      apt_key:
+        keyserver: keyserver.ubuntu.com:80
+        id: 2EE0EA64E40A89B84B2DF73499E82A75642AC823
     - name: Add repo for Weechat
       apt_repository: 
         repo: deb https://weechat.org/ubuntu yakkety main
@@ -54,6 +66,8 @@
         - ant
         - ant-contrib
         - gradle
+        # Scala
+        - sbt
         # KVM
         - qemu-kvm
         # C/C++
