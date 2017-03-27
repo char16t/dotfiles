@@ -6,8 +6,9 @@
     - name: Install apt-transport-https
       apt: name=apt-transport-https state=latest
     - name: Add gpg key for weechat
-      shell: apt-key adv --keyserver ha.pool.sks-keyservers.net --recv-keys 11E9DE8848F2B65222AA75B8D1820DB22A11534E
-      become: yes
+      apt_key:
+        keyserver: ha.pool.sks-keyservers.net
+        id: 11E9DE8848F2B65222AA75B8D1820DB22A11534E
     - name: Add PPA for golang
       apt_repository: repo='ppa:ubuntu-lxc/lxd-stable' state=present
     - name: Add PPA for Neovim
