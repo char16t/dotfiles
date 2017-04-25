@@ -251,6 +251,13 @@
         - requests
         - pyyaml
         - Jinja2
+        - numpy
+        - scipy 
+        - matplotlib
+        - pandas 
+        - sympy
+        - scikit-learn
+        - nose
     - name: pip3 install
       pip: name={{ item }} executable=pip3  state=latest
       with_items:
