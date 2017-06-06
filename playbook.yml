@@ -14,7 +14,7 @@
     - name: Add PPA for Neovim
       apt_repository: repo='ppa:neovim-ppa/unstable' state=present
     - name: Add repo for Weechat
-      apt_repository: 
+      apt_repository:
         repo: deb https://weechat.org/ubuntu yakkety main
         state: present
     - name: update apt cache
@@ -192,7 +192,7 @@
         - python-numpy
         - python-scipy
         - python-matplotlib
-        - ipython 
+        - ipython
         - ipython-notebook
         - python-pandas
         - python-sympy
@@ -252,9 +252,9 @@
         - pyyaml
         - Jinja2
         - numpy
-        - scipy 
+        - scipy
         - matplotlib
-        - pandas 
+        - pandas
         - sympy
         - scikit-learn
         - nose
@@ -265,7 +265,3 @@
         - pyyaml
         - Jinja2
         - cookiecutter
-    - name: Set zsh as default shell
-      user:
-        name: user
-        shell: /bin/zsh
