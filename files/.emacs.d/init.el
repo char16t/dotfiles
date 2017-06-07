@@ -29,11 +29,13 @@
 
 ;; Backups
 (setq backup-directory-alist '(("." . "~/.emacs.d/backups")))
-
-(setq delete-old-versions -1)
-(setq version-control t)
-(setq vc-make-backup-files t)
 (setq auto-save-file-name-transforms '((".*" "~/.emacs.d/auto-save-list/" t)))
+(setq version-control t       ;; Use version numbers for backups.
+      kept-new-versions 10    ;; Number of newest versions to keep.
+      kept-old-versions 10    ;; Number of oldest versions to keep.
+      delete-old-versions t   ;; Don't ask to delete excess backup versions.
+      backup-by-copying t     ;; Copy all files, don't rename them.
+      vc-make-backup-files t) ;; Backup files managed by a version control system
 
 ;; History
 (setq savehist-file "~/.emacs.d/savehist")
@@ -199,4 +201,3 @@
 	      (setq params (plist-put params :tags tag))
 	      (clocktable-by-tag/insert-tag params))
 	    tags)))
-
