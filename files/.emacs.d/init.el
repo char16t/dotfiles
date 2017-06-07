@@ -62,6 +62,12 @@
       recentf-max-menu-items 15)
 (recentf-mode)
 
+;; turn on highlight matching brackets when cursor is on one
+(show-paren-mode 1)
+(setq show-paren-style 'parenthesis ;; highlight brackets
+      show-paren-style 'expression  ;; highlight entire expression
+      show-paren-style 'mixed)      ;; highlight brackets if visible, else entire expression
+
 ;; Org Modules
 (setq org-modules '(org-bbdb
                       org-gnus
