@@ -21,6 +21,9 @@
 (setq user-full-name "Valeriy Manenkov"
       user-mail-address "v.manenkov@gmail.com")
 
+;; Show line numbers
+(global-linum-mode t)
+
 ;; Show column number
 (column-number-mode 1)
 
