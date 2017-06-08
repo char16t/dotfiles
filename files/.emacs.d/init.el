@@ -27,6 +27,9 @@
 ;; Show column number
 (column-number-mode 1)
 
+;; Highlight current line
+(global-hl-line-mode +1)
+
 ;; Load secrets
 (load "~/.emacs.d/.secrets.el" t)
 
