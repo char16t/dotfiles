@@ -30,6 +30,9 @@
 ;; Highlight current line
 (global-hl-line-mode +1)
 
+;; Don't create lock files
+(setq create-lockfiles nil)
+
 ;; Load secrets
 (load "~/.emacs.d/.secrets.el" t)
 
