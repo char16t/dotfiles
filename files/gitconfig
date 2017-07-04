@@ -1,3 +1,8 @@
 [user]
 	name = Valeriy Manenkov
 	email = v.manenkov@gmail.com
+	signingkey = 5F70811A
+[commit]
+	gpgsign = true
+[gpg]
+	program = gpg2
