@@ -1,6 +1,0 @@
-set sendmail="/usr/bin/msmtp"
-set envelope_from=yes
-set from="Valeriy Manenkov <v@manenkov.com>"
-set use_from=yes
-set edit_headers=yes
- 
