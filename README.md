@@ -1,6 +1,6 @@
 ## About
 
-Before my playbook.yml contain commands for installing all the necessary 
+Before my playbook.yml contained commands for installing all the necessary 
 software, but now I started to use Debian 9 instead of Ubuntu 16.10 and 
 [Nix package manager](http://nixos.org/nix/) instead of 
 [Apt](https://wiki.debian.org/Apt). For this reason, software should be 
