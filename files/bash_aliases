@@ -1,3 +1,6 @@
+alias vi='nvim'
+alias vim='nvim'
+
 git() {
   case $1 in
     tag)
