@@ -1,0 +1,16 @@
+git() {
+  case $1 in
+    tag)
+      shift
+      command git tag -s "$@"
+      ;;
+    commit)
+      shift
+      command git commit --signoff "$@"
+      ;;
+    *)
+      command git "$@";;
+  esac
+}
+
+

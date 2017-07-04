@@ -6,3 +6,5 @@
       file: src={{ playbook_dir }}/files/gitconfig dest=~/.gitconfig state=link force=yes
     - name: .gitignore_global
       file: src={{ playbook_dir }}/files/gitignore_global dest=~/.gitignore_global state=link force=yes
+    - name: .bash_aliases
+      file: src={{ playbook_dir }}/files/bash_aliases dest=~/.bash_aliases state=link force=yes
