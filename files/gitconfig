@@ -1,6 +1,6 @@
 [user]
 	name = Valeriy Manenkov
-	email = v.manenkov@gmail.com
+	email = v@manenkov.com
 	signingkey = 5F70811A
 [commit]
 	gpgsign = true
