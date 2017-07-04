@@ -1,5 +1,7 @@
 alias vi='nvim'
 alias vim='nvim'
+alias l='ls -alF'
+alias ll='ls -l'
 
 git() {
   case $1 in
