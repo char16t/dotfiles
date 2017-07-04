@@ -26,3 +26,5 @@
       file: src={{ playbook_dir }}/files/vimrc dest=~/.config/nvim/init.vim state=link force=true
     - name: .vimrc
       file: src={{ playbook_dir }}/files/vimrc dest=~/.vimrc state=link force=true
+    - name: .emacs
+      file: src={{ playbook_dir }}/files/emacs dest=~/.emacs state=link force=true
