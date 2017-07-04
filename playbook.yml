@@ -30,3 +30,13 @@
       file: src={{ playbook_dir }}/files/emacs dest=~/.emacs state=link force=true
     - name: .tmux.conf
       file: src={{ playbook_dir }}/files/tmux.conf dest=~/.tmux.conf state=link force=true
+    - name: bin directory
+      file: path=~/bin state=directory recurse=Yes
+    - name: bin/lein-exec
+      file: src={{ playbook_dir }}/bin/lein-exec dest=~/bin/lein-exec state=link force=true
+    - name: bin/lein-exec-p
+      file: src={{ playbook_dir }}/bin/lein-exec-p dest=~/bin/lein-exec-p state=link force=true
+    - name: .lein directory
+      file: path=~/.lein state=directory recurse=Yes
+    - name: .lein/profiles.clj
+      file: src={{ playbook_dir }}/files/profiles.clj dest=~/.lein/profiles.clj state=link force=true
