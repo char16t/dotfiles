@@ -7,6 +7,7 @@
 [gpg]
 	program = gpg2
 [core]
+	autocrlf = false
 	editor = nvim
 	excludesfile = ~/.gitignore_global
 [alias]
