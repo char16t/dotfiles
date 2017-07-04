@@ -1,5 +1,0 @@
-This directory contains Ansible Playbooks to install latest versions of some 
-software from source code. This playbooks do not start when you run the 
-playbook.yml in the root of this repository. You should run this manually.
-
-All dependencies now declared on playbook.yml in the root of this repo.
