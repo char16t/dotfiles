@@ -2,6 +2,11 @@ alias vi='nvim'
 alias vim='nvim'
 alias l='ls -alF'
 alias ll='ls -l'
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+alias .....='cd ../../../..'
+alias ......='cd ../../../../..'
 
 git() {
   case $1 in
