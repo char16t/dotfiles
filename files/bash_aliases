@@ -8,6 +8,10 @@ git() {
       shift
       command git commit --signoff "$@"
       ;;
+    log)
+      shift
+      command git log --show-signature "$@"
+      ;;
     *)
       command git "$@";;
   esac
