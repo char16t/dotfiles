@@ -40,3 +40,7 @@
       file: path=~/.lein state=directory recurse=Yes
     - name: .lein/profiles.clj
       file: src={{ playbook_dir }}/files/profiles.clj dest=~/.lein/profiles.clj state=link force=true
+    - name: .nixpkgs directory
+      file: path=~/.nixpkgs state=directory recurse=Yes
+    - name: .nixpkgs/config.nix
+      file: src={{ playbook_dir }}/files/config.nix dest=~/.nixpkgs/config.nix state=link force=true
