@@ -1,15 +1,15 @@
 [user]
-	name = Valeriy Manenkov
-	email = v@manenkov.com
-	signingkey = 5F70811A
+    name = Valeriy Manenkov
+    email = v@manenkov.com
+    signingkey = 5F70811A
 [commit]
-	gpgsign = true
+    gpgsign = true
 [gpg]
-	program = gpg2
+    program = gpg2
 [core]
-	autocrlf = false
-	editor = nvim
-	excludesfile = ~/.gitignore_global
+    autocrlf = false
+    editor = nvim
+    excludesfile = ~/.gitignore_global
 [alias]
-	it = !git init && git commit -m \"Initial commit (empty)\" --allow-empty --signoff
+    it = !git init && git commit -m \"Initial commit (empty)\" --allow-empty --signoff
     diffc = diff --cached
