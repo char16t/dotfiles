@@ -1,5 +1,6 @@
 alias vi='nvim'
 alias vim='nvim'
+alias e='emacs'
 alias l='ls -alF'
 alias ll='ls -l'
 alias ..='cd ..'
