@@ -8,3 +8,6 @@
 ```
 make
 ```
+
+Note: my old Ubuntu environment configuration avialable on
+[`ubuntu`](https://github.com/char16t/dotfiles/tree/ubuntu) branch.
