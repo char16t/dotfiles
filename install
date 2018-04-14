@@ -4,6 +4,7 @@ dotfiles=(
   "gitconfig"
   "screenrc"
   "bashrc"
+  "vimrc"
 )
 dir="${HOME}/dotfiles"
 
