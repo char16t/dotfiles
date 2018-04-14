@@ -116,5 +116,7 @@ if ! shopt -oq posix; then
   fi
 fi
 
-# start screen automatically
-[[ $TERM != "screen" ]] && exec screen -q
+# if $STY is not set...
+if [ -z "$STY" ]; then
+    exec screen -ARR
+fi
