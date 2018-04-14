@@ -3,6 +3,7 @@
 dotfiles=(
   "gitconfig"
   "screenrc"
+  "bashrc"
 )
 dir="${HOME}/dotfiles"
 
