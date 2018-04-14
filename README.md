@@ -1,7 +1,7 @@
 # dotfiles
 My portable configuration & environment
 
-# Installation
+## Installation
 
 ```
 ./install
