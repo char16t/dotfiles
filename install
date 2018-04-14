@@ -6,7 +6,7 @@ dotfiles=(
   "bashrc"
   "vimrc"
 )
-dir="${HOME}/dotfiles"
+dir="${HOME}/dotfiles/files"
 
 for dotfile in "${dotfiles[@]}";do
  ln -sfv "${dir}/${dotfile}" ~/."${dotfile}"
