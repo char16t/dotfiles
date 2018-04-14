@@ -1,9 +1,12 @@
 #!/bin/bash
 
-dotfiles=("gitconfig")
+dotfiles=(
+  "gitconfig"
+  "screenrc"
+)
 dir="${HOME}/dotfiles"
 
 for dotfile in "${dotfiles[@]}";do
- ln -sfv "${HOME}/${dotfile}" ~/."${dotfile}"
+ ln -sfv "${dir}/${dotfile}" ~/."${dotfile}"
 done
 
