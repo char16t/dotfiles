@@ -1,3 +1,5 @@
 [user]
 	email = v.manenkov@gmail.com
 	name = Valeriy Manenkov
+[credential]
+	helper = cache --timeout=3600
