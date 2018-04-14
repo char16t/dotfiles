@@ -9,6 +9,7 @@ My portable configuration & environment
 
 ## Configured software
 
+ * Bash
  * Git
  * GNU Screen
  * Vim
