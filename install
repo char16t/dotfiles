@@ -1,9 +1,9 @@
 #!/bin/bash
 
-dotfiles=(".gitconfig")
+dotfiles=("gitconfig")
 dir="${HOME}/dotfiles"
 
 for dotfile in "${dotfiles[@]}";do
- ln -sf "${HOME}/${dotfile}" "${dir}"
+ ln -sfv "${HOME}/${dotfile}" ~/."${dotfile}"
 done
 
