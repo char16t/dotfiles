@@ -11,6 +11,7 @@ My portable configuration & environment
 
  * Git
  * GNU Screen
+ * Vim
 
 ## History 
  * [Ubuntu 16.10 "Yakkety" (August 2015 — July 2017)](https://github.com/char16t/dotfiles/tree/ubuntu)
