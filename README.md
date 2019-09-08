@@ -28,7 +28,7 @@ sudo make enviromnent-setup
 ### Dotfiles setup
 
 ```bash
-sudo make dotfiles-setup
+make dotfiles-setup
 ```
 
 ### Previous versions
