@@ -31,6 +31,12 @@ sudo make enviromnent-setup
 make dotfiles-setup
 ```
 
+### Install & configure software
+
+```bash
+sudo make software-setup
+```
+
 ### Previous versions
 
 My old Ubuntu 16.10 environment configuration avialable on
