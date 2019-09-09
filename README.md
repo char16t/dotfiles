@@ -8,6 +8,7 @@ git clone https://github.com/char16t/dotfiles
 cd dotfiles
 sudo make enviromnent-setup
 make dotfiles-setup
+sudo make software-setup
 ```
 
 ### Requirements
