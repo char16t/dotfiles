@@ -40,5 +40,5 @@ sudo make software-setup
 
 ### Previous versions
 
-My old Ubuntu 16.10 environment configuration avialable on
-[`ubuntu`](https://github.com/char16t/dotfiles/tree/ubuntu) branch.
+My old Ubuntu 16.10 environment configuration available on
+[`ubuntu-16.10`](https://github.com/char16t/dotfiles/tree/ubuntu-16.10) branch.
