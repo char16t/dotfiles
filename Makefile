@@ -1,9 +1,11 @@
 .PHONY: help
 help:
 	@echo "Portable configuration & environment"
-	@echo "make enviromnent-setup    Install requirements"
-	@echo "make dotfiles-setup       Link dotfiles at home dir with this files"
-	@echo "make software-setup       Install & configure software"
+	@echo ""
+	@echo "    make enviromnent-setup    Install requirements"
+	@echo "    make dotfiles-setup       Link dotfiles at home dir with this files"
+	@echo "    make software-setup       Install & configure software"
+	@echo ""
 
 .PHONY: environment-setup
 environment-setup:
@@ -14,5 +16,5 @@ dotfiles-setup:
 	./setup/dotfiles-setup.sh
 
 .PHONY: software-setup
-dotfiles-setup:
+software-setup:
 	ansible-playbook -i setup/local setup/playbook.yml
