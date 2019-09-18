@@ -5,3 +5,25 @@
   tasks:
     - name: update apt cache
       apt: update_cache=yes
+    - name: install software via apt
+      apt: name={{ item }} state=latest
+      with_items:
+        - python3-all
+        - libpython3-all-dbg
+        - libpython3-all-dev
+        - python3-all-dbg
+        - python3-all-dev
+        - python3-setuptools
+        - python3-virtualenv
+        - python3-pip
+    - name: install python libs via pip
+      pip: name={{ item }} executable=pip3  state=latest
+      with_items:
+        - jupyterlab
+        - numpy
+        - scipy
+        - matplotlib
+        - ipython
+        - pandas
+        - sympy
+        - nose
