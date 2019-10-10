@@ -27,3 +27,4 @@
         - pandas
         - sympy
         - nose
+        - seaborn
