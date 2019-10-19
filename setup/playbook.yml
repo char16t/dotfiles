@@ -31,3 +31,4 @@
           - sympy
           - nose
           - seaborn
+          - scikit-learn
