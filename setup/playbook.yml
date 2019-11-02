@@ -32,3 +32,4 @@
           - nose
           - seaborn
           - scikit-learn
+          - xgboost
