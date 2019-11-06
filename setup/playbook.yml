@@ -33,3 +33,4 @@
           - seaborn
           - scikit-learn
           - xgboost
+          - pybrain
