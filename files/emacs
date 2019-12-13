@@ -1,0 +1,8 @@
+;; Hide toolbar
+(tool-bar-mode -1)
+
+;; Hide menubar
+(menu-bar-mode -1)
+
+;; Hide status line
+(setq-default mode-line-format nil)
