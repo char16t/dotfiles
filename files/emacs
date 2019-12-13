@@ -1,8 +1,23 @@
-;; Hide toolbar
-(tool-bar-mode -1)
+;; Emacs 26.3 Configuration
+;;
 
-;; Hide menubar
+;; Hide menu bar
 (menu-bar-mode -1)
 
-;; Hide status line
+;; Hide tool bar
+(tool-bar-mode -1)
+
+;; Hide status bar
 (setq-default mode-line-format nil)
+
+;; Hide scrollbar
+(scroll-bar-mode -1)
+
+;; Hide window decorations
+(set-frame-parameter nil 'undecorated t)
+
+;; Maximize window on start
+(add-to-list 'default-frame-alist '(fullscreen . maximized))
+
+;; Change all prompts to y or n
+(fset 'yes-or-no-p 'y-or-n-p)
