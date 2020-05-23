@@ -1,0 +1,54 @@
+---
+- hosts: all
+  gather_facts: no
+  become: yes
+  tasks:
+    - name: update apt cache
+      apt: update_cache=yes
+
+    # Install software via apt
+    - name: install python3-all via apt
+      apt: name=python3-all state=latest
+    - name: install libpython3-all-dbg via apt
+      apt: name=libpython3-all-dbg state=latest
+    - name: install libpython3-all-dev via apt
+      apt: name=libpython3-all-dev state=latest
+    - name: install python3-all-dbg via apt
+      apt: name=python3-all-dbg state=latest
+    - name: install python3-all-dev via apt
+      apt: name=python3-all-dev state=latest
+    - name: install python3-setuptools via apt
+      apt: name=python3-setuptools state=latest
+    - name: install python3-virtualenv via apt
+      apt: name=python3-virtualenv state=latest
+    - name: install python3-pip via apt
+      apt: name=python3-pip state=latest
+
+    # Install python libs via pip
+    - name: install jupyterlab via apt
+      pip: name=jupyterlab state=latest executable=pip3
+    - name: install numpy via apt
+      pip: name=numpy state=latest executable=pip3
+    - name: install scipy via apt
+      pip: name=scipy state=latest executable=pip3
+    - name: install matplotlib via apt
+      pip: name=matplotlib state=latest executable=pip3
+    - name: install ipython via apt
+      pip: name=ipython state=latest executable=pip3
+    - name: install pandas via apt
+      pip: name=pandas state=latest executable=pip3
+    - name: install sympy via apt
+      pip: name=sympy state=latest executable=pip3
+    - name: install nose via apt
+      pip: name=nose state=latest executable=pip3
+    - name: install seaborn via apt
+      pip: name=seaborn state=latest executable=pip3
+    - name: install scikit-learn via apt
+      pip: name=scikit-learn state=latest executable=pip3
+    - name: install cmake via apt
+      pip: name=cmake state=latest executable=pip3
+    - name: install xgboost via apt
+      pip: name=xgboost state=latest executable=pip3
+    - name: install pybrain via apt
+      pip: name=xgboost state=latest executable=pip3
+

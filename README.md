@@ -35,7 +35,7 @@ make dotfiles-setup
 ### Install & configure software
 
 ```bash
-sudo make software-setup
+sudo -H make software-setup
 ```
 
 ### Previous versions
