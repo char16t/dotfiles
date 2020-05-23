@@ -19,6 +19,9 @@
 ;; Maximize window on start
 (add-to-list 'default-frame-alist '(fullscreen . maximized))
 
+;; Disable default Emacs screen
+(setq inhibit-startup-screen t)
+
 ;; Change all prompts to y or n
 (fset 'yes-or-no-p 'y-or-n-p)
 
