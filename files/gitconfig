@@ -1,3 +1,5 @@
 [user]
   user = Valeriy Manenkov
   email = valeriy@manenkov.com
+[push]
+  default = current
