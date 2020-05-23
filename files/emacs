@@ -21,3 +21,6 @@
 
 ;; Change all prompts to y or n
 (fset 'yes-or-no-p 'y-or-n-p)
+
+;; Always follow the symlinks
+(setq vc-follow-symlinks t)
