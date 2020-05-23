@@ -1,0 +1,30 @@
+---
+- hosts: all
+  gather_facts: no
+  become: yes
+  tasks:
+    - name: update apt cache
+      apt: update_cache=yes
+
+    # Install Java via apt
+    - name: install openjdk-13-jre via apt
+      apt: name=openjdk-13-jre state=latest
+    - name: install openjdk-13-jdk via apt
+      apt: name=openjdk-13-jdk state=latest
+    - name: install maven via apt
+      apt: name=maven state=latest
+    - name: install maven via apt
+      apt: name=maven state=latest
+    - name: install gradle via apt
+      apt: name=gradle state=latest
+
+    # Install Scala via apt
+    - name: install scala via apt
+      apt: name=scala state=latest
+    - name: install sbt via apt
+      apt: name=sbt state=latest
+
+    # Install software to frontend development
+    - name: install nodejs via apt
+      apt: name=nodejs state=latest
+
