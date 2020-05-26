@@ -1,3 +1,2 @@
 ---
-- import_playbook: playbook-development.yml
 - import_playbook: playbook-data-science.yml
