@@ -30,6 +30,10 @@
 ;; Always follow the symlinks
 (setq vc-follow-symlinks t)
 
+;; Window title
+(when (window-system)
+  (setq frame-title-format '("" "%b @ Emacs " emacs-version)))
+
 ;; Cursor
 (setq-default cursor-type 'bar)
 
