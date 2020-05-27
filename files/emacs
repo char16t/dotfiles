@@ -1,3 +1,5 @@
+;; -*-Lisp-*-
+
 ;; Emacs 26.3 Configuration
 ;;
 
@@ -31,10 +33,7 @@
 ;; Cursor
 (setq-default cursor-type 'bar)
 
-;; Enable bindings:
-;; Ctrl-C to copy
-;; Ctrl-V to paste
-;; Ctrl-X to cut
+;; Enable bindings: Ctrl-C to copy, Ctrl-V to paste, Ctrl-X to cut
 (cua-mode t)
 (setq cua-auto-tabify-rectangles nil) ;; Don't tabify after rectangle commands
 (transient-mark-mode 1) ;; No region when it is not highlighted
