@@ -13,11 +13,11 @@ sudo make software-setup
 
 ### Requirements
 
-I use [Ubuntu 18.04 (for desktops)](https://ubuntu.com/desktop)
+I use [Ubuntu 20.04 (for desktops)](https://ubuntu.com/desktop)
 
 ```sh
 $ uname -a
-Linux laptop 4.15.0-60-generic #67-Ubuntu SMP Thu Aug 22 16:55:30 UTC 2019 x86_64 x86_64 x86_64 GNU/Linux
+Linux laptop 5.4.0-51-generic #56-Ubuntu SMP Mon Oct 5 14:28:49 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux
 ```
 
 [Ansible](https://www.ansible.com/) is required. Install using command below:
