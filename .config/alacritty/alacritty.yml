@@ -1,0 +1,63 @@
+window:
+  # Available values:
+  # - full: borders and title bar
+  # - none: neither borders nor title bar
+  # - transparent: title bar, transparent background and title bar buttons
+  # - buttonless: title bar, transparent background, but no title bar buttons
+  decorations: full
+
+  # Values for `startup_mode`:
+  #   - Windowed
+  #   - Maximized
+  #   - Fullscreen
+  #
+  # Values for `startup_mode` (macOS only):
+  #   - SimpleFullscreen
+  startup_mode: Windowed
+  opacity: 1.0
+
+  dimensions:
+    lines: 1000
+    columns: 1000
+
+font:
+  normal:
+    family: "JetBrains Mono"
+    style: Regular
+  bold:
+    family: "JetBrains Mono"
+    style: Bold
+  italic:
+    family: "JetBrains Mono"
+    style: Italic
+  bold_italic:
+    family: "JetBrains Mono"
+    style: Bold Italic
+  size: 11
+
+selection:
+  save_to_clipboard: true
+
+cursor:
+  style:
+    # Values for `shape`:
+    #   - ▇ Block
+    #   - _ Underline
+    #   - | Beam
+    shape: Beam
+    # Values for `blinking`:
+    #   - Never: Prevent the cursor from ever blinking
+    #   - Off: Disable blinking by default
+    #   - On: Enable blinking by default
+    #   - Always: Force the cursor to always blink
+    blinking: Always
+
+mouse:
+  hide_when_typing: false
+
+mouse_bindings:
+  - { mouse: Right, action: PasteSelection }
+
+key_bindings:
+  - { key: F11, action: ToggleFullscreen }
+
