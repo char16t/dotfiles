@@ -6,9 +6,7 @@ My portable configuration & environment.
 cd ~
 git clone https://github.com/char16t/dotfiles
 cd dotfiles
-sudo make enviromnent-setup
 make dotfiles-setup
-sudo make software-setup
 ```
 
 ### Requirements
@@ -17,25 +15,7 @@ I use [Ubuntu 20.04 (for desktops)](https://ubuntu.com/desktop)
 
 ```sh
 $ uname -a
-Linux laptop 5.4.0-51-generic #56-Ubuntu SMP Mon Oct 5 14:28:49 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux
-```
-
-[Ansible](https://www.ansible.com/) is required. Install using command below:
-
-```bash
-sudo make enviromnent-setup
-```
-
-### Dotfiles setup
-
-```bash
-make dotfiles-setup
-```
-
-### Install & configure software
-
-```bash
-sudo -H make software-setup
+Linux laptop 6.12.1-arch1-1 #1 SMP PREEMPT_DYNAMIC Fri, 22 Nov 2024 16:04:27 +0000 x86_64 GNU/Linux
 ```
 
 ### Previous versions
