@@ -11,7 +11,7 @@ make dotfiles-setup
 
 ### Requirements
 
-I use [Ubuntu 20.04 (for desktops)](https://ubuntu.com/desktop)
+I use [EndeavourOS](https://endeavouros.com/) &ndash; lightweight Arch-based system.
 
 ```sh
 $ uname -a
