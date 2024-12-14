@@ -1,0 +1,24 @@
+[window]
+startup_mode = "Maximized"
+
+[scrolling]
+history = 100000
+
+[font]
+size = 12
+normal = { family = "JetBrains Mono", style = "Regular" }
+bold = { style = "Bold" }
+italic = { style = "Italic" }
+bold_italic = { style = "Bold Italic" }
+
+[cursor]
+style = { shape = "Beam", blinking = "Always" }
+
+[selection]
+save_to_clipboard = true
+
+[mouse]
+hide_when_typing = true
+bindings = [
+  { mouse = "Right", action = "PasteSelection" }
+]
